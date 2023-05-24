@@ -3,6 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+
 def clt(p, size=10000):
     for n, color in zip([10, 100, 1000, 10000], ["red", "yellow", "green", 'blue']):
         np.random.seed(99)
